@@ -33,7 +33,7 @@ The sends are the steps in [plan/PLAN.md](plan/PLAN.md). They finish at 20:30 UT
 
 **Roles.** The desk sends. The mini counts and does not send. The box does not send. Miners stay off.
 
-**Not this storm.** [Additional testing](https://github.com/STP-KAS/tn10-storm/blob/main/additional-testing/PLAN.md) is a later 16-family question. It is not in this window.
+**Not this storm.** [Additional testing](https://github.com/STP-KAS/tn10-storm/blob/main/additional-testing/PLAN.md) is a later 16-family question. It is not in this window. The [one-time load](one-time/REPORT.md) on 5 Nov is a separate 32-family count. It is not this window.
 
 ## Map
 
@@ -51,6 +51,7 @@ The sends are the steps in [plan/PLAN.md](plan/PLAN.md). They finish at 20:30 UT
 | [plan/METRICS.md](plan/METRICS.md) | Hop/s per family, and what the outside count sees |
 | [tools/README.md](tools/README.md) | No sender in this repo. Counter lives in the rehearsal |
 | [logs/](logs/README.md) | Results after 21:00 UTC. Empty until then |
+| [one-time/](one-time/REPORT.md) | Not Saturday. One 32-family load on 5 Nov |
 | [docs/README.md](docs/README.md) | Where the 29 Oct definitions still apply |
 
 ## Results
