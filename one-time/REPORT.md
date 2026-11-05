@@ -142,7 +142,7 @@ The sender's low-pool line is 100 coins. It logged that line through the second 
 
 After the window the 320 funding coins were still on the sender key, each still above 100 tKAS. Usable on them was 122,357 tKAS. Each hop also leaves a 1 tKAS token output on that same key. The pool ignores an output at or under 3 tKAS. One read of the key returned 11,430 entries, including all 320 funding coins. The token outputs fill the rest of that read, and the call stopped there.
 
-Sweeps at 75 seconds, 180 seconds and 360 seconds after the end found 0 of ours on the desk and 0 of ours on the mini, and replaced nothing.
+Sweeps at 75 seconds, 180 seconds and 360 seconds after the end found 0 of ours on the desk and 0 of ours on the mini, and replaced nothing. At 10 minutes after the end the mempool census was 0 of ours on the desk and 0 of ours on the mini.
 
 ## What this does not change
 
