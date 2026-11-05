@@ -2,7 +2,7 @@
 
 # Desk
 
-The desk is the only sender.
+The desk is the only sender. The paste sheet is [tn10-storm/build-count/PROMPT.md](https://github.com/STP-KAS/tn10-storm/blob/main/build-count/PROMPT.md). Pasting it before Saturday does not start the sender.
 
 - Before 18:40 UTC (19:40 CET): node synced on TN10, peers at least 8, clock within 80 ms, miners off, relay answers, lane at least 2,500 coins and 18,000 usable tKAS.
 - 18:55 UTC (19:55 CET): genesis for 8 families.

@@ -2,7 +2,7 @@
 
 # Box
 
-The box does not send. It does not count. It does not run genesis. It does not mine for this storm.
+The box does not send. It does not count. It does not run genesis. It does not mine for this storm. The paste sheet is [tn10-storm/bot-count/PROMPT.md](https://github.com/STP-KAS/tn10-storm/blob/main/bot-count/PROMPT.md). Pasting it before Saturday does not start anything.
 
 One NTP sample before 18:40 UTC (19:40 CET). A bad sample is logged. It does not abort the window. A missing sample is logged the same way.
 

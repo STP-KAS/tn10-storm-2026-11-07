@@ -43,9 +43,9 @@ The sends are the steps in [plan/PLAN.md](plan/PLAN.md). They finish at 20:30 UT
 | [plan/PLAN.md](plan/PLAN.md) | Saturday steps, both clocks |
 | [go/README.md](go/README.md) | The single clock and the roles |
 | [go/GO-MAP.md](go/GO-MAP.md) | Who does what |
-| [go/GO-BUILD.md](go/GO-BUILD.md) | Desk: the only sender |
-| [go/GO-MINI.md](go/GO-MINI.md) | Mini: count only. The paste sheet |
-| [go/GO-BOT.md](go/GO-BOT.md) | Box: NTP sample only. Does not send |
+| [go/GO-BUILD.md](go/GO-BUILD.md) | Desk: the only sender. [Paste sheet](https://github.com/STP-KAS/tn10-storm/blob/main/build-count/PROMPT.md) |
+| [go/GO-MINI.md](go/GO-MINI.md) | Mini: count only. [Paste sheet](https://github.com/STP-KAS/tn10-storm/blob/main/mini-count/PROMPT.md) |
+| [go/GO-BOT.md](go/GO-BOT.md) | Box: NTP sample only. [Paste sheet](https://github.com/STP-KAS/tn10-storm/blob/main/bot-count/PROMPT.md) |
 | [go/GO-KNS.md](go/GO-KNS.md) | KNS is not part of this storm |
 | [go/LOGGING.md](go/LOGGING.md) | What may be published after 21:00 UTC |
 | [plan/METRICS.md](plan/METRICS.md) | Hop/s per family, and what the outside count sees |
