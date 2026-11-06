@@ -18,4 +18,16 @@ The ramp accepted 1.320, then 1.365, then 1.375, then 1.260 per family. Gains +3
 
 18,983 hops. The desk's read of the mini node matched 18,983 of 18,983. No duplicate. Every hop had a header time. No pool-low, sender-off, node-drop, proc-exit, or family-drop.
 
-Round 2 is armed for 22:01–23:30:50 UTC. It is not scored yet. The mini's own note stays in [MINI.md](MINI.md).
+## Round 2
+
+Clean. Sends 22:01–23:30:50 UTC. The ramp's last hop was 23:23:50 UTC. Census at 23:40:57 UTC was 0 of ours on the desk and 0 on the mini node.
+
+f4 had an attempt in all 900 seconds, the first at 0.03 s, acceptance 1.358 hop/s per family, slowest family 1.344, no fault. Landing 97.89%. The gate opened f8.
+
+f1 was 1.437 hop/s. f2's slowest family was 1.348. f8 was 9,370 hops, 1.301 hop/s per family, slowest family 1.264.
+
+The ramp accepted 1.385, then 1.325, then 1.310 per family. Gains −4.3% and −1.1%. It stopped after r3. Later steps sent nothing.
+
+18,836 hops. The desk's read of the mini node matched 18,836 of 18,836. No duplicate. Every hop had a header time. No pool-low, sender-off, node-drop, proc-exit, or family-drop.
+
+The mini's own note stays in [MINI.md](MINI.md).
