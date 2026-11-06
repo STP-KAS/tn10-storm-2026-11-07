@@ -17,9 +17,11 @@ Use the counter on this machine against this machine's own TN10 node. Write the 
 | Counter on | Fri 6 Nov, **19:49** | **20:49** |
 | Round 1 sends | **19:51–21:20:50** | **20:51–22:20** |
 | Round 2 sends | **22:01–23:30:50** | **23:01–00:30** |
-| Counter off | **23:33:50** | Sat 7 Nov, **00:33** |
+| Counter off | Sat 7 Nov, **08:00** | **09:00** |
 
-If this file arrives after 19:49 UTC, start the counter immediately and write the UTC time you started. Leave it on through both rounds. Do not stop between them.
+The 23:33 UTC off time is withdrawn. Stay on until 08:00 UTC. Quiet gaps are still counted.
+
+If this file arrives after 19:49 UTC, start the counter immediately and write the UTC time you started. Leave it on through plan changes. A new round does not need a new paste while the counter is still on. The clock is [TIMETABLE.md](TIMETABLE.md).
 
 If the desk says round 1 was not clean, stop at the time the desk gives you. Do not invent a new window.
 

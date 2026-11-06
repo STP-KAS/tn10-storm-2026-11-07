@@ -13,9 +13,11 @@ A round is clean when f4 opens f8, every counted step holds at least 1.14 per fa
 | Mini counter on | Fri 6 Nov, **19:49** | **20:49** |
 | Round 1 sends | **19:51–21:20:50** | **20:51–22:20** |
 | Round 2 sends | **22:01–23:30:50** | **23:01–00:30** |
-| Mini counter off | **23:33:50** | Sat 7 Nov, **00:33** |
+| Mini counter off | Sat 7 Nov, **08:00** | **09:00** |
 
-Leave the counter on through both rounds. Round 2 starts only if round 1 is clean. If round 1 is not clean, this page is updated and the mini is told before 21:56 UTC.
+Leave the counter on through both rounds. Round 2 starts only if round 1 is clean. If a round is not clean, it is fixed and run again. Round 3 does not start until round 2 has succeeded. This page is updated before the new clock, and the mini does not need a new paste while its counter is still on.
+
+The mini counter stays up until **Sat 7 Nov 2026, 08:00 UTC (09:00 CET)**. That covers a rerun and, if both rounds succeed, the load test. It is not the Saturday count. Saturday still starts its own counter at 18:58 UTC.
 
 The steps inside each round, from that round's start:
 
