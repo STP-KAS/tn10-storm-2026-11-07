@@ -55,4 +55,4 @@ This check will not point the covenant sender at 3,000 transactions per second. 
 
 The same 6 Nov reread still shows rusty-kaspa [#1147](https://github.com/kaspanet/rusty-kaspa/pull/1147) open: a node can keep already-accepted transactions in its mempool after IBD. The nodes are not restarted for this check. Mempool counts are logged. A stuck transaction with no live funding input is recorded and is not chased with a new tool.
 
-vProgs approvals and issue [#177](https://github.com/kaspanet/vprogs/issues/177) from 5–6 Nov are about batch state and pruning. They are not this L1 covenant run. This check does not claim to test them.
+vProgs issue [#177](https://github.com/kaspanet/vprogs/issues/177), opened 5 Nov, is a crash between a batch's state-diff flush and its commit. Pruning can then delete a live row. That is not a covenant hop, and it is not tested by this sender. After round 2 succeeds, the load round logs mempool retention on the TN10 nodes, which is the open rusty-kaspa [#1147](https://github.com/kaspanet/rusty-kaspa/pull/1147) question. The #177 sequence is run separately, on a scratch store, not on the TN10 node and not while a round is sending.
