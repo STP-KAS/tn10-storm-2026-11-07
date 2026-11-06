@@ -29,3 +29,7 @@ Checks at 18:40 UTC (19:40 CET): both nodes synced on TN10, peers at least 8, cl
 Genesis at 18:55 UTC (19:55 CET), eight families. The mini's counter goes on at 18:58 UTC and off at 21:00 UTC.
 
 Private submit times stay off this repo. After the run the public numbers are p50, p95 and p99 of submit to accepting header, and the accepted hops per family per step.
+
+## Friday check
+
+[precheck/](../precheck/README.md) is the Fri 6 Nov 2026 check of this plan. It is for tomorrow. It does not move the clocks above. Round 3 in that folder is another test, initiated by STP, and it runs only if the two Friday rounds are clean.
