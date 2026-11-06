@@ -13,4 +13,4 @@ Saturday stays **7 Nov 2026, 19:00–21:00 UTC (20:00–22:00 CET)**. The Saturd
 | [DESK.md](DESK.md) | Desk findings, written here after each round |
 | [MINI.md](MINI.md) | Mini findings, written separately from the desk |
 
-Round 3 is another test, initiated by STP. It is not Saturday. It runs only if rounds 1 and 2 are clean. The rule is in the timetable.
+This folder is rounds 1 and 2 only.

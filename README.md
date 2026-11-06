@@ -53,7 +53,7 @@ The sends are the steps in [plan/PLAN.md](plan/PLAN.md). They finish at 20:30 UT
 | [logs/](logs/README.md) | Results after 21:00 UTC. Empty until then |
 | [one-time/](one-time/REPORT.md) | Not Saturday. One 32-family load on 5 Nov |
 | [rehearsal/](rehearsal/REPORT.md) | Not Saturday. Dress rehearsal of this plan, evening of 5 Nov |
-| [precheck/](precheck/README.md) | Fri 6 Nov check for Saturday. Round 3 is a separate STP test |
+| [precheck/](precheck/README.md) | Fri 6 Nov check for Saturday. Two rounds |
 | [docs/README.md](docs/README.md) | Where the 29 Oct definitions still apply |
 
 ## Results

@@ -30,5 +30,3 @@ If the desk says round 1 was not clean, stop at the time the desk gives you. Do 
 After the counter is off, write a counts-only note. No ids. Per round: hops you matched, any minute that looked thin, whether your node stayed synced, and whether your mempool still held any of ours ten minutes after the last send.
 
 That note is the mini's own finding. It is not the desk's note. The desk puts it on GitHub at [MINI.md](MINI.md) in this folder. If you have this repo on the mini, you may write that file yourself. Do not commit a private id file. Do not commit a key, an address, a host, or a port.
-
-Round 3 is a later test, initiated by STP. Do not start it from this paste. A second paste will carry its clock, and only if the desk says both rounds were clean.

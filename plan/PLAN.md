@@ -32,4 +32,4 @@ Private submit times stay off this repo. After the run the public numbers are p5
 
 ## Friday check
 
-[precheck/](../precheck/README.md) is the Fri 6 Nov 2026 check of this plan. It is for tomorrow. It does not move the clocks above. Round 3 in that folder is another test, initiated by STP, and it runs only if the two Friday rounds are clean.
+[precheck/](../precheck/README.md) is the Fri 6 Nov 2026 check of this plan. Two rounds. It is for tomorrow. It does not move the clocks above.
