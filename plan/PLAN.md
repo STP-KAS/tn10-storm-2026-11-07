@@ -34,6 +34,8 @@ Private submit times stay off this repo. After the run the public numbers are p5
 
 [precheck/](../precheck/README.md) is the Fri 6 Nov 2026 check of this plan. Two rounds. It is for tomorrow. It does not move the clocks above.
 
+The count is read as in [COUNT.md](COUNT.md).
+
 ## After the window
 
 The clocks above are plan 1. [ROADMAP.md](ROADMAP.md) is the choice. Plan 2 adds one 32-family load after 21:00 UTC, only if that load is wanted. The sheets for it are in [after/](../after/README.md). They do not move the table above.

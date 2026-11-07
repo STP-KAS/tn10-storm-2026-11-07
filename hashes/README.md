@@ -17,6 +17,6 @@ If a genesis coin moves before the send, the desk replaces that file before the 
 
 ## What these numbers are for
 
-The Saturday count and the load are two files. The first write-up stays on Sunday, as already agreed. The load write-up is the second file, on Monday 9 Nov 2026, by 18:00 UTC.
+The Saturday count and the load are two files. File 1 is Sunday 8 Nov 2026, by 12:00 CET (11:00 UTC). File 2 is Monday 9 Nov 2026, by 18:00 UTC. The reading is in [plan/COUNT.md](../plan/COUNT.md).
 
 Put the accepted hops first. The 1-to-8 window is the quiet case. The 32-family window is the busy case: what each family still got, and what was rejected. The question those numbers feed is whether a builder who needs transactions to keep landing while the network is busy should watch for that load. This load does not raise the fee. It is not a fee result.

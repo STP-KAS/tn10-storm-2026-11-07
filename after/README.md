@@ -61,7 +61,7 @@ Saturday's last send is 20:30 UTC. From 20:30 to 21:00 the counter stays on and 
 
 The outside counter keeps counting through a 15-minute tail, to 22:15 UTC, for late landings. The desk's read of that node stays up for the same tail. The send still ends at 22:00 UTC.
 
-The Saturday write-up stays on Sunday, as already agreed. The load write-up is a second file, on Monday 9 Nov 2026, by 18:00 UTC.
+The Saturday write-up is file 1, Sunday 8 Nov 2026, by 12:00 CET (11:00 UTC). The load write-up is file 2, Monday 9 Nov 2026, by 18:00 UTC. The reading is in [plan/COUNT.md](../plan/COUNT.md).
 
 The start is not before 21:15 UTC. A later start the same Saturday is only if the Saturday window itself has not finished. The send is still 45 minutes. It does not start after 23:00 UTC.
 
