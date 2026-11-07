@@ -34,7 +34,7 @@ Plan 1, unchanged, through 21:00 UTC. Then one 32-family load. The write-up, the
 | Target start | **21:15** | **22:15** |
 | Target end | **22:00** | **23:00** |
 
-45 minutes. 32 families from the first second. The same 1.2 offer. One sender. The mini counts what lands. The start slips later the same Saturday if the 21:10 census still shows Saturday hops. It does not start before 21:15 UTC and it does not start after 23:00 UTC.
+45 minutes. 32 families from the first second. The same 1.2 offer. One sender. The mini counts what lands. 21:15 UTC is after the Saturday counter turns off at 21:00. The two counts are two files. Accepted hops are already in blocks by then. The mempool of ours has been empty at the end of every recent window. We look once. We do not hold the start for that look. The start is not before 21:15 UTC and not after 23:00 UTC.
 
 The pastes are [after/GO-BUILD.md](../after/GO-BUILD.md) and [after/GO-MINI.md](../after/GO-MINI.md). There is no box paste for this load. [GO-BOT](../go/GO-BOT.md) stays the Saturday NTP sample and nothing more.
 

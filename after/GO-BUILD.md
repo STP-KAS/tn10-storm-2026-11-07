@@ -13,7 +13,7 @@ One relay, boson. The rate you hold is **1.2 accepted hop/s per family**. You do
 | | UTC | Desk local (CET, UTC+1) |
 |---|---|---|
 | Saturday counter off | Sat 7 Nov 2026, **21:00** | **22:00** |
-| Saturday census | **21:10** | **22:10** |
+| Look at the mempool | **21:10** | **22:10** |
 | Genesis, target | **21:10** | **22:10** |
 | START, target | **21:15** | **22:15** |
 | End, target | **22:00** | **23:00** |
@@ -29,7 +29,7 @@ All of the following have to be true. A miss means you do not start.
 
 - The clock is Saturday 7 Nov 2026.
 - The Saturday counter is off. The Saturday window is 19:00–21:00 UTC. You do not send this load inside it.
-- The operator has said the Saturday census is clear: none of the Saturday hops left on the desk node, and none left on the mini node.
+- At 21:10 UTC, look once at the mempool and write down the count of ours. Empty is the expected state. Saturday's last send was 20:30 UTC, and an accepted hop is in a block within a second or two. Do not delay 21:15 because of this look.
 - Desk node synced, on TN10. Peers at least 8.
 - Clock within 80 ms of NTP. Log the offset in milliseconds and the UTC time.
 - Miners off. One line: `MINERS desk n=0`.
@@ -37,7 +37,7 @@ All of the following have to be true. A miss means you do not start.
 - Sender key at least 2,500 coins and 18,000 usable tKAS, recounted after Saturday. Do not lower that line. If the recount is short, top up or do not start.
 - The start you were given is at or after 21:15 UTC and at or before 23:00 UTC. If you were not given a later start, use 21:15 UTC.
 
-Genesis is 32 families, about five minutes before the start, and only after the line above is true. If genesis cannot include all 32, do not start the send.
+Genesis is 32 families, about five minutes before the start. If genesis cannot include all 32, do not start the send.
 
 ## The window
 

@@ -20,9 +20,15 @@ Two 32-family loads already settled in the same place. Label **A** for both.
 | Worst full minute | 0.833/s | 0.933/s |
 | Outside count | matched every hop | matched every hop |
 
-Offered rate both nights was 1.2 per family. Acceptance stayed near 1.05–1.15 per family. The attempts above that came back already spent or orphan. The fee was left where it was. On the second night the builder sat at p50 13 ms and p95 69 ms. Submit time to the accepting header sat at p50 708 ms, p95 1,274 ms, p99 1,564 ms. The builder was not the ceiling. The ceiling was how many hops the network accepted per family.
+Saturday measures 1 family, then 2, then 4, then 8, at one held rate. The question there is whether 1.2 stays clean up to 8 families. The holds and the 6 Nov check say it does. At 8 families the slowest family was about 1.26/s.
 
-Saturday, at 8 families and 1.2, is a different question and it already has its own sheet. This load asks whether a third 45-minute window, with Pulse's counter on it, lands on the same ceiling. People working on the node can read the reject classes, the header percentiles, and the per-family floor next to the two nights already published. That is the use of running it once more.
+32 families asks the next question. Does each added family still bring about 1.2 hops/s with it, or does the network settle on a total and give each family less?
+
+Two nights of this shape say the second thing. At 8 families the total is about 10 hops/s. At 32 families the total was 33.86/s on 5 Nov and 34.55/s on 6 Nov. Four times the families, a bit more than three times the hops. The slowest family was 1.037/s, then 1.047/s. The offer was still 1.2. The network did not take the offer. Every full minute of both windows had a slowest family under the Saturday 1.14 line.
+
+The rejects were already spent and orphan. Two families reach for the same coin. One lands. The other is dropped. That is not a fee miss. On the second night the builder was p50 13 ms and p95 69 ms. Submit time to the accepting header was p50 708 ms, p95 1,274 ms, p99 1,564 ms. Building the hop is not what sets the rate. How many of these hops a block will take, per family, does.
+
+Our mini matched both loads, hop for hop. Pulse's nodes have not counted this shape yet. If his count lands on the same total and the same per-family floor, the limit is in the network, not in our join. If it does not, the difference is the result. Either reading is useful to someone working on the node. Saturday stays 8 families at 1.2 either way.
 
 ## How
 
@@ -34,24 +40,26 @@ Same shape as those two loads.
 - The fee stays where it is at the start. Already spent and orphan mean the families are contending. They are not a reason to raise the fee. If a submit is rejected for the fee itself, the desk stops and tells the operator.
 - The mini counts what lands on chain. The desk keeps a private submit file, one row per included hop. After the window the public numbers are the accepted hops, the slowest family, the worst full minute, and p50, p95 and p99 of submit time to the accepting header.
 - The abort line stays 2,500 coins and 18,000 usable tKAS. Recount it after Saturday and before this genesis. Do not lower it. If the lane is short, top up or do not start.
-- Genesis is 32 families, about five minutes before the send, and only after the Saturday census is clear. That census is none of the Saturday hops left on the desk node and none left on the mini node.
+- Genesis is 32 families, about five minutes before the send.
 
 ## Target
 
-A target, not a locked clock. The length is 45 minutes because that is the length that already produced a full minute-by-minute floor. The start moves later on Saturday if the census is not clear. It does not move earlier, and it does not take a minute out of the 19:00–21:00 count.
+The length is 45 minutes because that is the length that already produced a full minute-by-minute floor. The start is 21:15 UTC because the Saturday counter turns off at 21:00 UTC. The load has its own file. It does not share a minute with the Saturday count.
+
+Saturday's last send is 20:30 UTC. From 20:30 to 21:00 the counter stays on and the sender is quiet, so that half hour is in the Saturday file with none of our hops. An accepted hop on TN10 is in a block within a second or two. It does not wait in the mempool until 21:10. After the 5 Nov load, after both parts of the 6 Nov check, and after the second 32-family load, the mempool census was 0 of ours on the desk and 0 of ours on the mini. Empty is the expected state. We look once at 21:10 and write down what we see. We do not hold the 21:15 start for that look.
 
 | | UTC | Desk local (CET, UTC+1) |
 |---|---|---|
 | Saturday counter off | 21:00 | 22:00 |
-| Saturday census | 21:10 | 22:10 |
-| Genesis, if that census is clear | **21:10** | **22:10** |
+| Look at the mempool | 21:10 | 22:10 |
+| Genesis | **21:10** | **22:10** |
 | Mini counter on | **21:13** | **22:13** |
 | Target start | **21:15** | **22:15** |
 | Target end | **22:00** | **23:00** |
 | Counter off | **22:05** | **23:05** |
-| Census of this load | **22:10** | **23:10** |
+| Look after this load | **22:10** | **23:10** |
 
-If 21:15 UTC is not clear, name a later start the same Saturday. The send is still 45 minutes. Shift genesis, the counter, and the census by the same amount. The start is at or after 21:15 UTC and at or before 23:00 UTC. A start at 23:00 UTC ends at 23:45 UTC. After 23:00 UTC this sheet does not start.
+The start is not before 21:15 UTC. A later start the same Saturday is only if the Saturday window itself has not finished. The send is still 45 minutes. It does not start after 23:00 UTC.
 
 ## What this leaves alone
 
