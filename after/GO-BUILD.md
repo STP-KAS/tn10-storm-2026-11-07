@@ -17,7 +17,7 @@ One relay, boson. The rate you hold is **1.2 accepted hop/s per family**. You do
 | Genesis, target | **21:10** | **22:10** |
 | START, target | **21:15** | **22:15** |
 | End, target | **22:00** | **23:00** |
-| Census of this load | **22:10** | **23:10** |
+| Census of this load | **22:15** | **23:15** |
 
 The length is 45 minutes. 21:15 UTC is the target, not a lock. A later start the same Saturday is allowed. A start before 21:15 UTC is not. A start after 23:00 UTC is not.
 

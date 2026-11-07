@@ -16,9 +16,9 @@ The desk is the only sender. One relay, boson. The rate the desk will hold is **
 | Counter on, target | **21:13** | **22:13** |
 | START, target | **21:15** | **22:15** |
 | End, target | **22:00** | **23:00** |
-| Counter off, target | **22:05** | **23:05** |
+| Counter off, target | **22:15** | **23:15** |
 
-21:15 UTC is the target start. If the operator names a later start the same Saturday, the send is still 45 minutes. Your counter goes on 2 minutes before that start and off 5 minutes after the end. The start you follow is at or after 21:15 UTC and at or before 23:00 UTC.
+21:15 UTC is the target start. If the operator names a later start the same Saturday, the send is still 45 minutes. Your counter goes on 2 minutes before that start and stays on for a 15-minute tail after the end, so a late landing is in the file. The start you follow is at or after 21:15 UTC and at or before 23:00 UTC. The target tail ends at 22:15 UTC.
 
 ## When you start
 
@@ -36,7 +36,7 @@ If the operator has not confirmed genesis by the target, do not start. Ask.
 
 ## The window
 
-One step. You count from 2 minutes before the start until 5 minutes after the end, so the edges are in the file.
+One step. You count from 2 minutes before the start until 15 minutes after the end, so a late landing is in the file.
 
 | Step | Families | Rate | Length |
 |---|---:|---:|---|
@@ -73,7 +73,7 @@ A fail here is reported to the operator. You do not send a transaction to fix it
 
 - Starting on any day except Saturday 7 Nov 2026.
 - Starting before 21:13 UTC that day, or for a send that starts after 23:00 UTC.
-- Staying on past 5 minutes after the end, unless the operator says the window was extended.
+- Staying on past 15 minutes after the end, unless the operator says the window was extended.
 - One accepted-id file that also holds the Saturday window.
 - Any send, any genesis, any miner, any key.
 - A second sender, including the box.

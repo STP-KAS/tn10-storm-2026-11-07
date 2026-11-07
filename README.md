@@ -56,7 +56,8 @@ The sends are the steps in [plan/PLAN.md](plan/PLAN.md). They finish at 20:30 UT
 | [rehearsal/](rehearsal/REPORT.md) | Not Saturday. Dress rehearsal of this plan, evening of 5 Nov |
 | [precheck/](precheck/README.md) | Fri 6 Nov check for Saturday. Two rounds |
 | [load-32/](load-32/REPORT.md) | Not Saturday. Another 32-family load, night of 6 Nov |
-| [after/](after/README.md) | Not Saturday. Proposal: one 32-family load after 21:00 UTC. Desk and mini pastes. No box paste |
+| [after/](after/README.md) | The same Saturday window, then one 32-family load. Desk and mini pastes. No box paste |
+| [hashes/](hashes/README.md) | Family-id hashes. GitHub only, not X. 8 before 18:40 UTC, 32 before 21:10 UTC |
 | [docs/README.md](docs/README.md) | Where the 29 Oct definitions still apply |
 
 ## Results

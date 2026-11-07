@@ -2,7 +2,7 @@
 
 # Two ways to spend Saturday
 
-The choice is one or the other. Either the Saturday window alone, or that same window with one 32-family load after the counter is off. The load is not a different Saturday, and it does not replace the window. It runs only if the outside counter wants it added.
+The outside counter took the second way. Saturday runs as already planned. The 32-family load is added after that count closes. The load is not a different Saturday, and it does not replace the window.
 
 Pasting a sheet before its own clock does not start a sender and does not start a counter.
 
