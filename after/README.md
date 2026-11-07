@@ -2,7 +2,7 @@
 
 # After the Saturday count
 
-This is a proposal. It runs only if Pulse wants the count. It is not the Saturday storm.
+This is the load added on top of Saturday, only if Pulse wants it added. It is not a different Saturday, and it does not replace the 19:00–21:00 window.
 
 Saturday stays **7 Nov 2026, 19:00–21:00 UTC (20:00–22:00 CET)**. The Saturday sender starts at 19:00 UTC and not before. Those steps, that rate, and the sheets in [go/](../go/README.md) stay as they are. This folder starts after that counter is off.
 

@@ -1,8 +1,8 @@
 > **Experimental. We are just trying this.** [Disclaimer](../DISCLAIMER.md) · Kaspa Testnet-10 only. Counts only.
 
-# Two plans
+# Two ways to spend Saturday
 
-Saturday's sheet does not move. Plan 1 is that sheet. Plan 2 is the same sheet, then one load after the counter is off. Plan 2 runs only if the outside counter wants it.
+The choice is one or the other. Either the Saturday window alone, or that same window with one 32-family load after the counter is off. The load is not a different Saturday, and it does not replace the window. It runs only if the outside counter wants it added.
 
 Pasting a sheet before its own clock does not start a sender and does not start a counter.
 
@@ -23,7 +23,7 @@ One sender, the desk, on from the first second of each step. 1 family, then 2, t
 
 The steps are in [PLAN.md](PLAN.md). The pastes are [GO-BUILD](../go/GO-BUILD.md), [GO-MINI](../go/GO-MINI.md) and [GO-BOT](../go/GO-BOT.md). The box takes one NTP sample. It does not send and it does not count.
 
-If plan 2 is declined, use these sheets and ignore [after/](../after/README.md).
+If the load is declined, use these sheets and ignore [after/](../after/README.md). Saturday is unchanged either way.
 
 ## Plan 2
 
