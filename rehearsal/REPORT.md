@@ -6,7 +6,7 @@
 
 This is not the Saturday storm. Saturday stays **7 Nov 2026, 19:00–21:00 UTC (20:00–22:00 CET)**. The Saturday sender starts at 19:00 UTC and not before. Nothing in this folder moves that clock, the 1.2 rate, or the abort line of 2,500 coins and 18,000 usable tKAS.
 
-The paste for Saturday is the sheet itself: [GO-BUILD](../go/GO-BUILD.md), [GO-MINI](../go/GO-MINI.md), [GO-BOT](../go/GO-BOT.md). Pasting one before Saturday does not start a sender.
+The paste for Saturday is the sheet itself: [GO-BUILD](../go/GO-BUILD.md) and [GO-MINI](../go/GO-MINI.md). [GO-BOT](../go/GO-BOT.md) says the box is not part of the window. Pasting a sheet before Saturday does not start a sender.
 
 ## Shape
 
@@ -75,4 +75,4 @@ The census about 10 minutes after the schedule end was the same: desk 0, mini 1.
 
 ## What Saturday still does
 
-Saturday uses the clocks in [plan/PLAN.md](../plan/PLAN.md), not the clocks in this folder. Recount the lane before genesis. The abort line stays 2,500 coins and 18,000 usable tKAS. Family-id hashes, miner lines, and the NTP samples wait for Saturday, before 18:40 UTC.
+Saturday uses the clocks in [plan/PLAN.md](../plan/PLAN.md), not the clocks in this folder. Recount the lane before genesis. The abort line stays 2,500 coins and 18,000 usable tKAS. Family-id hashes, miner lines, and the desk clock check wait for Saturday, before 18:40 UTC. The box has no sample.

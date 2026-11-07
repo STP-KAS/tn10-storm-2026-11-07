@@ -6,7 +6,7 @@
 |---|---|
 | Desk | Sends. Genesis. The private submit file. The score afterwards |
 | Mini | Counts from 18:58 to 21:00 UTC. Does not send |
-| Box | NTP sample only. A bad sample is logged and does not abort |
+| Box | Not in this window. No sample. No task |
 
 | UTC | CET | What |
 |---|---|---|

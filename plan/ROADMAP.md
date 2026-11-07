@@ -21,7 +21,7 @@ The count plan is [COUNT.md](COUNT.md). It is in force for the desk and the mini
 
 One sender, the desk, on from the first second of each step. 1 family, then 2, then 4, then 8 if 4 is clean. One rate, **1.2** accepted hop/s per family. Pass line **1.14**, read as in [COUNT.md](COUNT.md). Landing is written down. It does not open or close the 8-family step. The ramp is 10 minutes, steps of 0.1 from 1.2 to 2.1, 50 seconds on and 10 seconds off, and it stops when two gains in a row are under 3%.
 
-The steps are in [PLAN.md](PLAN.md). The pastes are [GO-BUILD](../go/GO-BUILD.md), [GO-MINI](../go/GO-MINI.md) and [GO-BOT](../go/GO-BOT.md). The box takes one NTP sample. It does not send and it does not count.
+The steps are in [PLAN.md](PLAN.md). The pastes are [GO-BUILD](../go/GO-BUILD.md) and [GO-MINI](../go/GO-MINI.md). [GO-BOT](../go/GO-BOT.md) records that the box is not part of this window. It has no sample and no task.
 
 If the load is declined, use these sheets and ignore [after/](../after/README.md). Saturday is unchanged either way.
 
@@ -36,7 +36,7 @@ Plan 1, unchanged, through 21:00 UTC. Then one 32-family load. The write-up, the
 
 45 minutes. 32 families from the first second. The same 1.2 offer. One sender. The mini counts what lands. 21:15 UTC is after the Saturday counter turns off at 21:00. The two counts are two files. Accepted hops are already in blocks by then. The mempool of ours has been empty at the end of every recent window. We look once. We do not hold the start for that look. The start is not before 21:15 UTC and not after 23:00 UTC.
 
-The pastes are [after/GO-BUILD.md](../after/GO-BUILD.md) and [after/GO-MINI.md](../after/GO-MINI.md). There is no box paste for this load. [GO-BOT](../go/GO-BOT.md) stays the Saturday NTP sample and nothing more.
+The pastes are [after/GO-BUILD.md](../after/GO-BUILD.md) and [after/GO-MINI.md](../after/GO-MINI.md). The box is not part of this load. It is not part of Saturday either.
 
 ## What stays put either way
 

@@ -68,7 +68,7 @@ The start is not before 21:15 UTC. A later start the same Saturday is only if th
 ## What this leaves alone
 
 - Saturday's 19:00 UTC start, the 1.2 rate, the 1.14 pass line, and the rule that landing is written down and does not open or close the 8-family step.
-- The box. It does not send and it does not count this load. Its Saturday sheet is still one NTP sample at 18:40 UTC.
+- The box. It is not part of Saturday and it is not part of this load. No sample. No task.
 - Ordinary payments. A full block of ordinary payments is a different measurement. These sends are covenant hops. The two loads accepted about 34 hops/s in total. This sender is not aimed at the payment ceiling.
 - The 16-family question in [additional testing](https://github.com/STP-KAS/tn10-storm/blob/main/additional-testing/PLAN.md). That question stays off this night. It is the open point between 8 families and 32, and it already has its own file. It is not a second ask for Saturday.
 

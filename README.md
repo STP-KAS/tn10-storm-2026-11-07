@@ -27,7 +27,7 @@ The sends are the steps in [plan/PLAN.md](plan/PLAN.md). They finish at 20:30 UT
 
 ## What and why
 
-**What.** One desk sender. Steps of 15 minutes at 1 family, then 2, then 4, then 8 if 4 held the line, with 5-minute gaps. Then a 10-minute ramp. The offer is 1.2 accepted hops/s per family. The line is 1.14. The desk sends. The mini counts. The box does not send. Miners stay off.
+**What.** One desk sender. Steps of 15 minutes at 1 family, then 2, then 4, then 8 if 4 held the line, with 5-minute gaps. Then a 10-minute ramp. The offer is 1.2 accepted hops/s per family. The line is 1.14. The desk sends. The mini counts. The box is not part of this window. Miners stay off.
 
 **Why.** 29 Oct ran 1, then 2, then 4 families and asked for the next shape: one sender, on from the first second, and eight families. The holds and the Friday passes of that shape already cleared 1.14 at eight families, with the slowest family near 1.26 hops/s. Tonight is the counted window of that shape, not a search for a new eight-family number. The ramp has gone flat near 1.3 every time it has been run. The useful part is that flat stretch. The listed top of 2.1 is not a rate the network has taken.
 
@@ -48,7 +48,7 @@ The 32-family load after 21:00 UTC is the busy case in the same evening. Two loa
 | [go/GO-MAP.md](go/GO-MAP.md) | Who does what |
 | [go/GO-BUILD.md](go/GO-BUILD.md) | Desk paste. The only sender. The whole sheet is in this file |
 | [go/GO-MINI.md](go/GO-MINI.md) | Mini paste. Count only. The whole sheet is in this file |
-| [go/GO-BOT.md](go/GO-BOT.md) | Box paste. One NTP sample. The whole sheet is in this file |
+| [go/GO-BOT.md](go/GO-BOT.md) | The box is not part of this window. No sample. No task |
 | [go/GO-KNS.md](go/GO-KNS.md) | KNS is not part of this storm |
 | [go/LOGGING.md](go/LOGGING.md) | What may be published after 21:00 UTC |
 | [plan/METRICS.md](plan/METRICS.md) | Hop/s per family, and what the outside count sees |

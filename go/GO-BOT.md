@@ -1,34 +1,23 @@
 > **Experimental. We are just trying this.** [Disclaimer](../DISCLAIMER.md) · Kaspa Testnet-10 only.
 >
-> Paste this whole file into the box. It is Saturday oversight. Reading it today does not start anything.
+> The box is not part of this window. This file is the record of that. Pasting it does not start anything. There is nothing to do.
 
 # GO-BOT · box · Saturday 7 Nov 2026
 
-You are the box. You do not send. You do not count. You do not run genesis. You do not mine. You do not open a wallet for this storm. You do not hold a key for it.
+You are the box. You are not in this window.
 
-The desk is the only sender. The mini counts on its own node. The storm is [tn10-storm-2026-11-07](https://github.com/STP-KAS/tn10-storm-2026-11-07). The plan is [plan/PLAN.md](../plan/PLAN.md).
+The desk sends. The mini counts. Those two are the run. You are not a third part of it.
 
-| | UTC | Desk local (CET, UTC+1) |
-|---|---|---|
-| Your NTP sample | Sat 7 Nov 2026, **18:40** | **19:40** |
-| START | **19:00** | **20:00** |
-| Sends finished | **20:30** | **21:30** |
-| Window ends | **21:00** | **22:00** |
+You do not send. You do not count. You do not run genesis. You do not mine. You do not open a wallet for this storm. You do not hold a key for it. You do not take an NTP sample. You do not log a clock. You do not watch the window.
 
-## What you do
+There is no task before 18:40 UTC. There is no task during the window. There is no task after it.
 
-Before **18:40 UTC** (19:40 CET), take one NTP sample. Log the offset in milliseconds and the UTC time, and nothing else.
-
-A bad sample is logged. It does not abort the window. A missing sample is logged the same way. You do not send a transaction to fix a clock.
-
-During the window, stay up and stay quiet. If you notice a sender process on the box, stop that process and tell the operator. You do not replace it with a sender of your own.
-
-You do not need family ids. You do not write a hop file. The mini's accepted-id file and the desk's private submit file are not yours.
+If this file is open on the box, leave the box quiet. Do not start a sender to fill the time.
 
 ## What you refuse
 
-- Any send, any genesis, any miner, any key.
-- Starting a count of your own and publishing it as the result.
+- Any send, any genesis, any miner, any key, any count, any clock sample.
+- Treating this file as a job.
 - A second sender, on the box or anywhere else.
 - Pasting ids, keys, addresses, hosts or ports into chat.
 - Treating any other window as Saturday.

@@ -40,4 +40,4 @@ A third run of that same shape will not discover a new ceiling if the network is
 - Ordinary-payment throughput. The September and October storms did that. Covenant hops at 32 families have sat near 34 per second. Reading that number as a payment-storm result would be the wrong comparison.
 - Whether a higher fee buys inclusion. These loads did not raise the fee. A submit rejected for the fee itself stops the run.
 - A 16-family ladder. That question is written down as [additional testing](https://github.com/STP-KAS/tn10-storm/blob/main/additional-testing/PLAN.md). It is not tonight.
-- Anything the box sends. The box takes one time sample. It does not send and it does not count.
+- Anything the box does. The box is not part of this window. It has no sample and no task.
