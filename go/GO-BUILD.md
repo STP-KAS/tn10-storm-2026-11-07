@@ -6,7 +6,7 @@
 
 You are the desk. You are the only sender. You run genesis. You keep the private submit file. You do not start a second sender. The mini counts. The box does not send.
 
-This is the Saturday storm, [tn10-storm-2026-11-07](https://github.com/STP-KAS/tn10-storm-2026-11-07). The plan is [plan/PLAN.md](../plan/PLAN.md).
+This is the Saturday storm, [tn10-storm-2026-11-07](https://github.com/STP-KAS/tn10-storm-2026-11-07). The plan is [plan/PLAN.md](../plan/PLAN.md). The count is read as in [plan/COUNT.md](../plan/COUNT.md). These clocks do not move.
 
 One relay, boson. The rate you hold is **1.2 accepted hop/s per family**. You do not raise it on a counted step.
 
@@ -56,19 +56,22 @@ Sender on at `from`, off at `to`.
 
 f4 is clean when every second of that step had an attempt, acceptance was at least 1.14 per family, and nothing fired sender-off, pool-low, node-drop or proc-exit. Landing percent is written down. It does not open or close f8.
 
+1.14 over that 900 second step is 1,026 accepted hops per family. A hop counts in the step when its seen time is inside the step. The gate waits 3 seconds after the close, then reads. That wait does not extend the 900 seconds. A full minute at 1.14 is 68.4 hops. The line is the whole step. It is not a 69-hop minute line.
+
 If f8 is skipped, the same ramp starts at 20:00 UTC (21:00 CET) and ends at 20:10 UTC (21:10 CET).
 
-The ramp is ten steps. Each step is 50 seconds on and 10 seconds off. The rates are 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9, 2.0, 2.1. Stop the ramp when two gains in a row are under 3%. A flat stretch is the result.
+The ramp is ten steps. Each step is 50 seconds on and 10 seconds off. The rates are 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9, 2.0, 2.1. Stop the ramp when two gains in a row are under 3%. A flat stretch is the result. The Sunday file shows the hop counts behind every gain.
 
 ## What you keep
 
 On the desk, a private file, one row per included hop: submit time, family, step, and the id. That file is how submit time meets acceptance. It does not go in the repo and it does not go into chat.
 
-After 21:00 UTC the public numbers are p50, p95 and p99 of submit time to the accepting header, and the accepted hops per family per step.
+After 21:00 UTC the public file follows [plan/COUNT.md](../plan/COUNT.md). Accepted hops per family, per minute and per second. Attempt seconds as counts, from the sender log. Landing for the window and per family. The hop counts behind each ramp gain. Also p50, p95 and p99 of submit time to the accepting header. No ids.
 
 ## During the window
 
 - No phase offset. No stagger. No second sender. No box lane.
+- Miners stay off. The check line stays `MINERS desk n=0`.
 - Do not restart the node.
 - If the pool falls under the abort line, stop. Do not lower the line to finish the step.
 - Leave the node up until 21:10 UTC for the mempool census.

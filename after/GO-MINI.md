@@ -6,7 +6,7 @@
 
 You are the mini. You count on your own node. You do not send. You do not run genesis. You do not mine. You do not open a wallet. You do not hold a key for this load.
 
-The storm record is [tn10-storm-2026-11-07](https://github.com/STP-KAS/tn10-storm-2026-11-07). This load is [after/](README.md). Saturday is [plan/PLAN.md](../plan/PLAN.md). You count Saturday on the Saturday sheet. You count this load on this sheet. You do not mix the files.
+The storm record is [tn10-storm-2026-11-07](https://github.com/STP-KAS/tn10-storm-2026-11-07). This load is [after/](README.md). Saturday is [plan/PLAN.md](../plan/PLAN.md). The count is read as in [plan/COUNT.md](../plan/COUNT.md). You count Saturday on the Saturday sheet. You count this load on this sheet. You do not mix the files.
 
 The desk is the only sender. One relay, boson. The rate the desk will hold is **1.2 accepted hop/s per family**, 32 families, for 45 minutes. You do not set the rate and you do not raise it.
 
@@ -42,7 +42,13 @@ One step. You count from 2 minutes before the start until 15 minutes after the e
 |---|---:|---:|---|
 | f32 | 32 | 1.2 | 45 minutes |
 
-You count what lands on chain. You do not count attempts. A reject is not a hop of yours to invent.
+You count accepted hops, per family, per minute and per second. Genesis is not a hop. A conflicting spend is not a hop. You do not count attempts. A reject is not a hop of yours to invent.
+
+A hop is in the 45 minutes when its seen time is inside those 45 minutes. The 15 minutes after the end stay in the file as late landings. You do not fold them into the 45-minute rate. You do not add any other tail onto the step.
+
+A minute is one you read in full. If you did not, mark it. You do not fill the gap. Miners stay off. Your line stays `MINERS mini n=0`.
+
+The thirty-two families are the ones hashed in [hashes/LOAD.md](../hashes/LOAD.md) before 21:10 UTC. You do not need the ids. You record every accepted transaction in the window.
 
 On 32 families the two earlier loads accepted about 34 hops/s in total, near 1.05–1.15 per family, under the offered 1.2. A minute under 1.2 is a result. You do not stop counting because a minute comes in low. You do not tell the desk to push the rate up.
 

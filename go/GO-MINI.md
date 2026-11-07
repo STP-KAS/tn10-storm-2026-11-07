@@ -6,7 +6,7 @@
 
 You are the mini. You count on your own node. You do not send. You do not run genesis. You do not mine. You do not open a wallet. You do not hold a key for this run.
 
-This is **not a test window.** The storm is [tn10-storm-2026-11-07](https://github.com/STP-KAS/tn10-storm-2026-11-07). The plan is [plan/PLAN.md](../plan/PLAN.md).
+This is **not a test window.** The storm is [tn10-storm-2026-11-07](https://github.com/STP-KAS/tn10-storm-2026-11-07). The plan is [plan/PLAN.md](../plan/PLAN.md). The count is read as in [plan/COUNT.md](../plan/COUNT.md). These clocks do not move.
 
 The desk is the only sender. One relay, boson. The rate the desk will hold is **1.2 accepted hop/s per family**. You do not set the rate and you do not raise it.
 
@@ -50,7 +50,17 @@ If f8 is skipped, the ramp starts at 20:00 UTC (21:00 CET) and ends at 20:10 UTC
 
 The ramp is ten steps. Each step is 50 seconds on and 10 seconds off. The rates are 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9, 2.0, 2.1. The desk stops the ramp when two gains in a row are under 3%. You keep counting. A flat stretch is the result. It is not a fault of yours.
 
-## What a clean minute looks like
+## What you count
+
+You count accepted hops, per family, per minute and per second. Genesis is not a hop. A conflicting spend is not a hop. Attempts are not on your chain. The desk reads attempts from its sender log.
+
+A hop belongs to a step when its seen time is at or after the step opens and before the step closes. You do not add time onto the step.
+
+A minute is one you read in full. If you did not, mark that minute. You do not fill the gap. Miners stay off. Your line stays `MINERS mini n=0`.
+
+The desk's 1.14 line is the whole 900 second step, 1,026 accepted hops per family. You do not apply a 69-hop minute line. On 8 families, two full minutes of the measured 10-minute window were under 1.2 and over 1.14. You do not stop counting if a minute comes in low. You do not tell the desk to push the rate up.
+
+You keep the accepted-id file on this machine so the desk can join it afterwards. That file is not published.
 
 The outside count buckets by block time, per UTC minute. Base load stays in the network total. Our own addition, if the rate holds, is about:
 
@@ -58,10 +68,6 @@ The outside count buckets by block time, per UTC minute. Base load stays in the 
 - 2 families: 2.4 hop/s
 - 4 families: 4.8 hop/s
 - 8 families: 9.6 hop/s
-
-A minute is valid when the desk attempted at least once in every second of it. You keep the accepted-id file so the desk can join it afterwards.
-
-On 8 families, two full minutes of the measured 10-minute window were under 1.2 and over 1.14. You do not stop counting if a minute comes in low. You do not tell the desk to push the rate up.
 
 ## Before 18:40 UTC (19:40 CET)
 

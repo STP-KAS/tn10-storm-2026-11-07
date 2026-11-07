@@ -6,7 +6,7 @@
 
 You are the desk. You are the only sender. You run genesis for this load. You keep the private submit file. You do not start a second sender. The mini counts. The box does not send and does not count this load.
 
-This load is [after/](README.md). Saturday is [plan/PLAN.md](../plan/PLAN.md). Saturday runs first, on its own sheets. You do not mix the two.
+This load is [after/](README.md). Saturday is [plan/PLAN.md](../plan/PLAN.md). The count is read as in [plan/COUNT.md](../plan/COUNT.md). Saturday runs first, on its own sheets. You do not mix the two.
 
 One relay, boson. The rate you hold is **1.2 accepted hop/s per family**. You do not raise it.
 
@@ -36,6 +36,7 @@ All of the following have to be true. A miss means you do not start.
 - Boson answers. If it does not, do not start.
 - Sender key at least 2,500 coins and 18,000 usable tKAS, recounted after Saturday. Do not lower that line. If the recount is short, top up or do not start.
 - The start you were given is at or after 21:15 UTC and at or before 23:00 UTC. If you were not given a later start, use 21:15 UTC.
+- The thirty-two family-id hashes are already on GitHub in [hashes/LOAD.md](../hashes/LOAD.md), before 21:10 UTC. The ids stay in a private file. You do not start a family that has no hash there.
 
 Genesis is 32 families, about five minutes before the start. If genesis cannot include all 32, do not start the send.
 
@@ -49,17 +50,20 @@ One step. Sender on at the start, off 45 minutes later.
 
 On from the first second. No stagger. No phase offset. Heartbeat 900 ms. No gap ladder. No ramp. No second sender.
 
+Accepted hops for the rate are the ones seen inside the 45 minutes. The rate for a family is that count divided by 2,700. Hops seen in the 15 minutes after the end are late landings. They are listed apart. They are not added to the 2,700.
+
 The fee stays where it is at the start. Already spent and orphan are the families contending. Leave the fee. If a submit is rejected for the fee itself, stop and tell the operator. Do not walk the fee up.
 
 ## What you keep
 
 On the desk, a private file, one row per included hop: submit time, family, step, and the id. That file does not go in the repo and it does not go into chat.
 
-After the counter is off, the public numbers are accepted hops, the slowest family, the worst full minute, and p50, p95 and p99 of submit time to the accepting header.
+After the counter is off, the public file follows [plan/COUNT.md](../plan/COUNT.md). Accepted hops per family, per minute and per second. The slowest family. The worst full minute. Landing for the window and per family. Also p50, p95 and p99 of submit time to the accepting header. No ids.
 
 ## During the window
 
 - Do not restart the node.
+- Miners stay off. The check line stays `MINERS desk n=0`.
 - If the pool falls under the abort line, stop. Do not lower the line to finish the 45 minutes.
 - Leave the node up until 10 minutes after the end for the mempool census.
 

@@ -24,6 +24,8 @@ It is not a 10 second tail. A hop counts in the step when its seen time is at or
 
 A full minute at 1.14 is 68.4 hops. The gate does not round that to 69, and it does not require every minute to clear 69. The line is the whole step.
 
+The same window rule covers the 32-family load. That step is 2,700 seconds. The rate is hops seen inside those 2,700 seconds, divided by 2,700. The counter then stays up 15 minutes. Hops in that tail are late landings. They are listed apart from the rate.
+
 ## Landing
 
 Landing is the share of seconds in the window that contain a hop, the same way as [HOLD.md](https://github.com/STP-KAS/tn10-storm/blob/main/desk-saturday/HOLD.md). The Sunday file also gives that share per family. Landing is written down. It does not open or close the 8-family step.
