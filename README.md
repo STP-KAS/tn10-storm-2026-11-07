@@ -8,7 +8,9 @@
 
 **Previous storm of this shape:** [tn10-storm-2026-10-29](https://github.com/STP-KAS/tn10-storm-2026-10-29) · Thu 29 Oct, 19:00–20:00 UTC (20:00–21:00 CET).
 
-The rehearsal that set the rate lives in [tn10-storm](https://github.com/STP-KAS/tn10-storm), folder [desk-saturday](https://github.com/STP-KAS/tn10-storm/tree/main/desk-saturday). This repo is the Saturday record. The sender starts at 19:00 UTC and not before.
+**This window did not run.** No genesis, no sends, no mini count, no 32-family load. We are sorry. It is a shared miss. The record of what went wrong, and the rerun, is [tn10-storm-2026-11-08](https://github.com/STP-KAS/tn10-storm-2026-11-08). The pre-tests in this repo still stand. They are not this window.
+
+The rehearsal that set the rate lives in [tn10-storm](https://github.com/STP-KAS/tn10-storm), folder [desk-saturday](https://github.com/STP-KAS/tn10-storm/tree/main/desk-saturday). This repo is the Saturday record. The sender was due at 19:00 UTC. It did not start.
 
 ## Start, end, gate
 
