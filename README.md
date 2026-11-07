@@ -33,7 +33,7 @@ The sends are the steps in [plan/PLAN.md](plan/PLAN.md). They finish at 20:30 UT
 
 **Roles.** The desk sends. The mini counts and does not send. The box does not send. Miners stay off.
 
-**Not this storm.** [Additional testing](https://github.com/STP-KAS/tn10-storm/blob/main/additional-testing/PLAN.md) is a later 16-family question. It is not in this window. The [one-time load](one-time/REPORT.md) on 5 Nov is a separate 32-family count. The [dress rehearsal](rehearsal/REPORT.md) later that evening ran the Saturday shape on its own clock. The [Friday check](precheck/README.md) on 6 Nov is for tomorrow. The [32-family load](load-32/REPORT.md) later that night is a separate count. None of these is this window.
+**Not this storm.** [Additional testing](https://github.com/STP-KAS/tn10-storm/blob/main/additional-testing/PLAN.md) is a later 16-family question. It is not in this window. The [one-time load](one-time/REPORT.md) on 5 Nov is a separate 32-family count. The [dress rehearsal](rehearsal/REPORT.md) later that evening ran the Saturday shape on its own clock. The [Friday check](precheck/README.md) on 6 Nov is for tomorrow. The [32-family load](load-32/REPORT.md) later that night is a separate count. [plan/ROADMAP.md](plan/ROADMAP.md) keeps this window as plan 1 and proposes one more 32-family load after 21:00 UTC as plan 2. Plan 2 runs only if it is wanted. None of these is this window.
 
 ## Map
 
@@ -41,7 +41,8 @@ The sends are the steps in [plan/PLAN.md](plan/PLAN.md). They finish at 20:30 UT
 |---|---|
 | [DISCLAIMER.md](DISCLAIMER.md) | Experimental; certainty labels A / B / C |
 | [plan/PLAN.md](plan/PLAN.md) | Saturday steps, both clocks |
-| [go/README.md](go/README.md) | The single clock and the roles |
+| [plan/ROADMAP.md](plan/ROADMAP.md) | Plan 1 is Saturday. Plan 2 adds one load after 21:00 UTC, only if wanted |
+| [go/README.md](go/README.md) | The single clock and the roles. These sheets are plan 1 |
 | [go/GO-MAP.md](go/GO-MAP.md) | Who does what |
 | [go/GO-BUILD.md](go/GO-BUILD.md) | Desk paste. The only sender. The whole sheet is in this file |
 | [go/GO-MINI.md](go/GO-MINI.md) | Mini paste. Count only. The whole sheet is in this file |
@@ -55,6 +56,7 @@ The sends are the steps in [plan/PLAN.md](plan/PLAN.md). They finish at 20:30 UT
 | [rehearsal/](rehearsal/REPORT.md) | Not Saturday. Dress rehearsal of this plan, evening of 5 Nov |
 | [precheck/](precheck/README.md) | Fri 6 Nov check for Saturday. Two rounds |
 | [load-32/](load-32/REPORT.md) | Not Saturday. Another 32-family load, night of 6 Nov |
+| [after/](after/README.md) | Not Saturday. Proposal: one 32-family load after 21:00 UTC. Desk and mini pastes. No box paste |
 | [docs/README.md](docs/README.md) | Where the 29 Oct definitions still apply |
 
 ## Results
