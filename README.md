@@ -27,13 +27,13 @@ The sends are the steps in [plan/PLAN.md](plan/PLAN.md). They finish at 20:30 UT
 
 ## What and why
 
-**What.** One desk sender, eight covenant families available, one rate. Steps are 15 minutes at 1 family, then 2, then 4, then 8 if 4 was clean, with 5-minute gaps. A 10-minute ramp follows, four families, offered rate up by 0.1/s from 1.2, and it stops when acceptance per family stops growing.
+**What.** One desk sender. Steps of 15 minutes at 1 family, then 2, then 4, then 8 if 4 held the line, with 5-minute gaps. Then a 10-minute ramp. The offer is 1.2 accepted hops/s per family. The line is 1.14. The desk sends. The mini counts. The box does not send. Miners stay off.
 
-**Rate.** 1.2 accepted hop/s per family. The pass line is 1.14. Two 10-minute holds on 5 Nov held that rate. On 8 families the worst full minute was 1.167. Detail: [HOLD.md](https://github.com/STP-KAS/tn10-storm/blob/main/desk-saturday/HOLD.md) (label A for those windows). Saturday's steps are 15 minutes. That length is what this storm measures.
+**Why.** 29 Oct ran 1, then 2, then 4 families and asked for the next shape: one sender, on from the first second, and eight families. The holds and the Friday passes of that shape already cleared 1.14 at eight families, with the slowest family near 1.26 hops/s. Tonight is the counted window of that shape, not a search for a new eight-family number. The ramp has gone flat near 1.3 every time it has been run. The useful part is that flat stretch. The listed top of 2.1 is not a rate the network has taken.
 
-**Roles.** The desk sends. The mini counts and does not send. The box does not send. Miners stay off.
+The 32-family load after 21:00 UTC is the busy case in the same evening. Two loads of that shape are already published, both near 34 hops/s total and both under 1.14 for the slowest family. A third run confirms that band, or shows a difference. It is not a new question. The full why, including what this does not test, is [WHY.md](WHY.md).
 
-**Not this storm.** [Additional testing](https://github.com/STP-KAS/tn10-storm/blob/main/additional-testing/PLAN.md) is a later 16-family question. It is not in this window. The [one-time load](one-time/REPORT.md) on 5 Nov is a separate 32-family count. The [dress rehearsal](rehearsal/REPORT.md) later that evening ran the Saturday shape on its own clock. The [Friday check](precheck/README.md) on 6 Nov is for tomorrow. The [32-family load](load-32/REPORT.md) later that night is a separate count. [plan/ROADMAP.md](plan/ROADMAP.md) keeps this window as plan 1 and proposes one more 32-family load after 21:00 UTC as plan 2. Plan 2 runs only if it is wanted. None of these is this window.
+**Already run, and not this window.** The [5 Nov load](one-time/REPORT.md), the [dress rehearsal](rehearsal/REPORT.md), the [Friday check](precheck/README.md), and the [second 32-family load](load-32/REPORT.md). [Additional testing](https://github.com/STP-KAS/tn10-storm/blob/main/additional-testing/PLAN.md) is a later 16-family question. None of these moves the clock above.
 
 ## Map
 
@@ -42,7 +42,8 @@ The sends are the steps in [plan/PLAN.md](plan/PLAN.md). They finish at 20:30 UT
 | [DISCLAIMER.md](DISCLAIMER.md) | Experimental; certainty labels A / B / C |
 | [plan/PLAN.md](plan/PLAN.md) | Saturday steps, both clocks |
 | [plan/COUNT.md](plan/COUNT.md) | Count plan in force for the desk and the mini |
-| [plan/ROADMAP.md](plan/ROADMAP.md) | Plan 1 is Saturday. Plan 2 adds one load after 21:00 UTC, only if wanted |
+| [WHY.md](WHY.md) | Why this shape, what is already known, what tonight does not test |
+| [plan/ROADMAP.md](plan/ROADMAP.md) | Saturday, then one 32-family load after 21:00 UTC |
 | [go/README.md](go/README.md) | The single clock and the roles. These sheets are plan 1 |
 | [go/GO-MAP.md](go/GO-MAP.md) | Who does what |
 | [go/GO-BUILD.md](go/GO-BUILD.md) | Desk paste. The only sender. The whole sheet is in this file |
