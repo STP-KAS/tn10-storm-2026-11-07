@@ -56,7 +56,7 @@ Sender on at `from`, off at `to`.
 
 f4 is clean when every second of that step had an attempt, acceptance was at least 1.14 per family, and nothing fired sender-off, pool-low, node-drop or proc-exit. Landing percent is written down. It does not open or close f8.
 
-1.14 over that 900 second step is 1,026 accepted hops per family. A hop counts in the step when its seen time is inside the step. The gate waits 3 seconds after the close, then reads. That wait does not extend the 900 seconds. A full minute at 1.14 is 68.4 hops. The line is the whole step. It is not a 69-hop minute line.
+1.14 over that 900 second step is 1,026 accepted hops per family. The published file places a hop by the accepting block's header time, `accept_utc`. The live gate reads the desk notice time, `seen_utc`. The gate waits 3 seconds after the close, then reads. That wait does not extend the 900 seconds. A full minute at 1.14 is 68.4 hops. The line is the whole step. It is not a 69-hop minute line.
 
 If f8 is skipped, the same ramp starts at 20:00 UTC (21:00 CET) and ends at 20:10 UTC (21:10 CET).
 

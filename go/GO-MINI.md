@@ -54,7 +54,7 @@ The ramp is ten steps. Each step is 50 seconds on and 10 seconds off. The rates 
 
 You count accepted hops, per family, per minute and per second. Genesis is not a hop. A conflicting spend is not a hop. Attempts are not on your chain. The desk reads attempts from its sender log.
 
-A hop belongs to a step when its seen time is at or after the step opens and before the step closes. You do not add time onto the step.
+A hop belongs to a step by the accepting block's header time. Keep the accepting block hash with each row. The desk writes the file from that header time. Your local receive time is not the step clock. You do not add time onto the step.
 
 A minute is one you read in full. If you did not, mark that minute. You do not fill the gap. Miners stay off. Your line stays `MINERS mini n=0`.
 

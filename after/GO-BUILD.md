@@ -50,7 +50,7 @@ One step. Sender on at the start, off 45 minutes later.
 
 On from the first second. No stagger. No phase offset. Heartbeat 900 ms. No gap ladder. No ramp. No second sender.
 
-Accepted hops for the rate are the ones seen inside the 45 minutes. The rate for a family is that count divided by 2,700. Hops seen in the 15 minutes after the end are late landings. They are listed apart. They are not added to the 2,700.
+Accepted hops for the rate are the ones whose accepting header time is inside the 45 minutes. The rate for a family is that count divided by 2,700. 1.14 over that step is 3,078 hops per family. The load reports that number and still runs the full 45 minutes. Hops whose header time is in the 15 minutes after the end are late landings. They are listed apart. They are not added to the 2,700.
 
 The fee stays where it is at the start. Already spent and orphan are the families contending. Leave the fee. If a submit is rejected for the fee itself, stop and tell the operator. Do not walk the fee up.
 

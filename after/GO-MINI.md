@@ -44,7 +44,7 @@ One step. You count from 2 minutes before the start until 15 minutes after the e
 
 You count accepted hops, per family, per minute and per second. Genesis is not a hop. A conflicting spend is not a hop. You do not count attempts. A reject is not a hop of yours to invent.
 
-A hop is in the 45 minutes when its seen time is inside those 45 minutes. The 15 minutes after the end stay in the file as late landings. You do not fold them into the 45-minute rate. You do not add any other tail onto the step.
+A hop is in the 45 minutes when the accepting block's header time is inside those 45 minutes. Keep the accepting block hash with each row. The 15 minutes after the end stay in the file as late landings. You do not fold them into the 45-minute rate. You do not add any other tail onto the step. The 1.14 line over this step is 3,078 hops per family. You do not stop counting because a family is under that line.
 
 A minute is one you read in full. If you did not, mark it. You do not fill the gap. Miners stay off. Your line stays `MINERS mini n=0`.
 

@@ -23,11 +23,13 @@ The Saturday file counts the eight families whose hashes are in [hashes/SATURDAY
 
 ### 2. The rate is the step itself
 
-A hop counts in the step when its seen time is at or after the step opens and before the step closes. The count is divided by the length of the step.
+A hop counts in the step when the accepting block's header time is at or after the step opens and before the step closes. The count is divided by the length of the step.
+
+That header time is `accept_utc`. It is the timestamp in the block header. The desk also stores a notice time, `seen_utc`, which is when this desk first saw the new output. `seen_utc` is not the clock for the file. The live gate that opens the 8-family step reads `seen_utc`. The Sunday file and the Monday file use the header time. On the runs already scored, the two clocks sit about a second apart.
 
 For a 900 second step that length is 900. 1.14 is 0.95 times 1.2, and over 900 seconds that is **1,026** accepted hops per family. That product is exact. The gate waits 3 seconds after the close before it reads the file. That wait does not extend the 900 seconds.
 
-For the 32-family load the length is 2,700 seconds. The rate is hops seen inside those 2,700 seconds, divided by 2,700. The counter then stays up 15 minutes. Hops in that tail are late landings. They are listed apart from the rate.
+For the 32-family load the length is 2,700 seconds. 1.14 over that step is **3,078** accepted hops per family. That product is exact. The load reports the count. It still runs the full 45 minutes. The counter then stays up 15 minutes. Hops in that tail are late landings. They are listed apart from the rate.
 
 ### 3. The line is the whole step
 
