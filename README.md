@@ -41,7 +41,7 @@ The sends are the steps in [plan/PLAN.md](plan/PLAN.md). They finish at 20:30 UT
 |---|---|
 | [DISCLAIMER.md](DISCLAIMER.md) | Experimental; certainty labels A / B / C |
 | [plan/PLAN.md](plan/PLAN.md) | Saturday steps, both clocks |
-| [plan/COUNT.md](plan/COUNT.md) | How accepted hops, the 1.14 line, landing and the ramp are read |
+| [plan/COUNT.md](plan/COUNT.md) | Count plan in force for the desk and the mini |
 | [plan/ROADMAP.md](plan/ROADMAP.md) | Plan 1 is Saturday. Plan 2 adds one load after 21:00 UTC, only if wanted |
 | [go/README.md](go/README.md) | The single clock and the roles. These sheets are plan 1 |
 | [go/GO-MAP.md](go/GO-MAP.md) | Who does what |

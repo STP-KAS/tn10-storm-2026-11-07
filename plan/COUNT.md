@@ -1,14 +1,41 @@
 > **Experimental. We are just trying this.** [Disclaimer](../DISCLAIMER.md) · Kaspa Testnet-10 only. Counts only. No txid, key, seed, IP, host, port, covenant id or wallet address.
 
-# How the count is read
+# Count plan
 
-This is the reading for tonight. The steps stay in [PLAN.md](PLAN.md). The load stays in [after/](../after/README.md).
+This is the plan for the desk and the mini.
+
+| Who | Saturday | Load, after 21:00 UTC |
+|---|---|---|
+| Desk | [go/GO-BUILD.md](../go/GO-BUILD.md) | [after/GO-BUILD.md](../after/GO-BUILD.md) |
+| Mini | [go/GO-MINI.md](../go/GO-MINI.md) | [after/GO-MINI.md](../after/GO-MINI.md) |
+
+The steps stay in [PLAN.md](PLAN.md). The load clock stays in [after/](../after/README.md).
+
+We do not claim this is the truth. It is our opinion from the testing already run: the holds, the two Friday checks, and the 32-family load. In those runs a hop counted when its seen time was inside the step, and a low minute did not by itself fail a step that held across the whole step.
+
+This page is in force. A later note in this repo can replace it. Until that note, the desk and the mini follow this page and those four sheets.
+
+## Three lines in this plan
+
+### 1. Which families count
+
+The Saturday file counts the eight families whose hashes are in [hashes/SATURDAY.md](../hashes/SATURDAY.md) before 18:40 UTC. The load file counts the thirty-two whose hashes are in [hashes/LOAD.md](../hashes/LOAD.md) before 21:10 UTC. The thirty-two stay on 21:10. Their coin is chosen after Saturday genesis at 18:55.
+
+### 2. The rate is the step itself
+
+A hop counts in the step when its seen time is at or after the step opens and before the step closes. The count is divided by the length of the step.
+
+For a 900 second step that length is 900. 1.14 is 0.95 times 1.2, and over 900 seconds that is **1,026** accepted hops per family. That product is exact. The gate waits 3 seconds after the close before it reads the file. That wait does not extend the 900 seconds.
+
+For the 32-family load the length is 2,700 seconds. The rate is hops seen inside those 2,700 seconds, divided by 2,700. The counter then stays up 15 minutes. Hops in that tail are late landings. They are listed apart from the rate.
+
+### 3. The line is the whole step
+
+A full minute at 1.14 is 68.4 hops. The line is the whole step, 1,026 hops per family. The gate does not use a 69-hop minute line. A minute can come in low and the step can still pass.
 
 ## What is an accepted hop
 
 An accepted hop is a hop that landed in a block. Genesis is not a hop. A conflicting spend, already spent or orphan, is not a hop. Those are listed apart.
-
-The Saturday file counts the eight families whose hashes are in [hashes/SATURDAY.md](../hashes/SATURDAY.md) before 18:40 UTC. The load file counts the thirty-two whose hashes are in [hashes/LOAD.md](../hashes/LOAD.md) before 21:10 UTC. The thirty-two are not pulled forward to 18:40. Their coin is chosen after Saturday genesis at 18:55.
 
 ## A valid minute
 
@@ -16,15 +43,7 @@ For the outside count, a minute is valid when both of their nodes read it in ful
 
 An attempt every second is read from the desk sender log. Attempts are not on chain. The Sunday file gives the attempt seconds as counts. It does not give the ids.
 
-## The 1.14 line
-
-1.14 is 0.95 times 1.2. Over a 900 second step that is **1,026** accepted hops per family. That product is exact.
-
-It is not a 10 second tail. A hop counts in the step when its seen time is at or after the step opens and before the step closes. The count is divided by 900. A hop seen after the close is not in the rate. The gate waits 3 seconds after the close before it reads the file. That wait does not extend the 900 seconds.
-
-A full minute at 1.14 is 68.4 hops. The gate does not round that to 69, and it does not require every minute to clear 69. The line is the whole step.
-
-The same window rule covers the 32-family load. That step is 2,700 seconds. The rate is hops seen inside those 2,700 seconds, divided by 2,700. The counter then stays up 15 minutes. Hops in that tail are late landings. They are listed apart from the rate.
+The mini counts accepted hops. A minute the mini did not read in full is marked. The mini does not fill that gap.
 
 ## Landing
 

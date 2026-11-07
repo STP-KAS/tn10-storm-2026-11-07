@@ -6,7 +6,7 @@
 
 You are the mini. You count on your own node. You do not send. You do not run genesis. You do not mine. You do not open a wallet. You do not hold a key for this run.
 
-This is **not a test window.** The storm is [tn10-storm-2026-11-07](https://github.com/STP-KAS/tn10-storm-2026-11-07). The plan is [plan/PLAN.md](../plan/PLAN.md). The count is read as in [plan/COUNT.md](../plan/COUNT.md). These clocks do not move.
+This is **not a test window.** The storm is [tn10-storm-2026-11-07](https://github.com/STP-KAS/tn10-storm-2026-11-07). This sheet is the plan for the Saturday count. Follow it. The count plan is [plan/COUNT.md](../plan/COUNT.md), and it is in force. The steps are in [plan/PLAN.md](../plan/PLAN.md). A later note in this repo can replace either page. Until that note, do not invent a second reading. These clocks do not move.
 
 The desk is the only sender. One relay, boson. The rate the desk will hold is **1.2 accepted hop/s per family**. You do not set the rate and you do not raise it.
 

@@ -4,10 +4,12 @@
 
 Public files land under [logs/](../logs/README.md) after 21:00 UTC (22:00 CET). Until then that folder stays empty.
 
-What may be published:
+What may be published follows [plan/COUNT.md](../plan/COUNT.md):
 
-- accepted hops per family per step
-- the same number per complete UTC minute
+- accepted hops per family, per minute and per second
+- attempt seconds as counts
+- landing for the window and per family
+- the hop counts behind each ramp gain
 - p50, p95 and p99 of submit time to the accepting header
 - NTP offsets in milliseconds, with the UTC time, and nothing else
 - one miner line per machine: `MINERS <machine> n=<count>`

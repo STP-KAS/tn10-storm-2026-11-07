@@ -8,7 +8,7 @@ Pasting a sheet before its own clock does not start a sender and does not start 
 
 ## Plan 1
 
-The window already under review.
+The count plan is [COUNT.md](COUNT.md). It is in force for the desk and the mini.
 
 | | UTC | Desk local (CET, UTC+1) |
 |---|---|---|
@@ -19,7 +19,7 @@ The window already under review.
 | Sends finished | **20:30** | **21:30** |
 | Counter off | **21:00** | **22:00** |
 
-One sender, the desk, on from the first second of each step. 1 family, then 2, then 4, then 8 if 4 is clean. One rate, **1.2** accepted hop/s per family. Pass line **1.14**. Landing is written down. It does not open or close the 8-family step. The ramp is 10 minutes, steps of 0.1 from 1.2 to 2.1, 50 seconds on and 10 seconds off, and it stops when two gains in a row are under 3%.
+One sender, the desk, on from the first second of each step. 1 family, then 2, then 4, then 8 if 4 is clean. One rate, **1.2** accepted hop/s per family. Pass line **1.14**, read as in [COUNT.md](COUNT.md). Landing is written down. It does not open or close the 8-family step. The ramp is 10 minutes, steps of 0.1 from 1.2 to 2.1, 50 seconds on and 10 seconds off, and it stops when two gains in a row are under 3%.
 
 The steps are in [PLAN.md](PLAN.md). The pastes are [GO-BUILD](../go/GO-BUILD.md), [GO-MINI](../go/GO-MINI.md) and [GO-BOT](../go/GO-BOT.md). The box takes one NTP sample. It does not send and it does not count.
 

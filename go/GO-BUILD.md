@@ -6,7 +6,7 @@
 
 You are the desk. You are the only sender. You run genesis. You keep the private submit file. You do not start a second sender. The mini counts. The box does not send.
 
-This is the Saturday storm, [tn10-storm-2026-11-07](https://github.com/STP-KAS/tn10-storm-2026-11-07). The plan is [plan/PLAN.md](../plan/PLAN.md). The count is read as in [plan/COUNT.md](../plan/COUNT.md). These clocks do not move.
+This is the Saturday storm, [tn10-storm-2026-11-07](https://github.com/STP-KAS/tn10-storm-2026-11-07). This sheet is the plan for the Saturday send. Follow it. The count plan is [plan/COUNT.md](../plan/COUNT.md), and it is in force. The steps are in [plan/PLAN.md](../plan/PLAN.md). A later note in this repo can replace either page. Until that note, do not invent a second reading. These clocks do not move.
 
 One relay, boson. The rate you hold is **1.2 accepted hop/s per family**. You do not raise it on a counted step.
 

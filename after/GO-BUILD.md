@@ -6,7 +6,7 @@
 
 You are the desk. You are the only sender. You run genesis for this load. You keep the private submit file. You do not start a second sender. The mini counts. The box does not send and does not count this load.
 
-This load is [after/](README.md). Saturday is [plan/PLAN.md](../plan/PLAN.md). The count is read as in [plan/COUNT.md](../plan/COUNT.md). Saturday runs first, on its own sheets. You do not mix the two.
+This sheet is the plan for the load send. Follow it. The count plan is [plan/COUNT.md](../plan/COUNT.md), and it is in force. This load is [after/](README.md). Saturday is [plan/PLAN.md](../plan/PLAN.md). Saturday runs first, on its own sheets. You do not mix the two. A later note in this repo can replace this sheet. Until that note, do not invent a second reading.
 
 One relay, boson. The rate you hold is **1.2 accepted hop/s per family**. You do not raise it.
 

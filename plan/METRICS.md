@@ -2,7 +2,7 @@
 
 # Metrics
 
-The headline is accepted hops per second, per family, over each full step, and the same number per complete UTC minute.
+The count plan is [COUNT.md](COUNT.md). It is in force. The headline there is accepted hops per second, per family, over each full step, and the same number per complete UTC minute.
 
 If the 1.2 hold stands, our own addition is about:
 
@@ -15,4 +15,4 @@ If the 1.2 hold stands, our own addition is about:
 
 The outside count buckets by block time, per UTC minute. Base load stays in that network total. Gaps, and 20:30–21:00 UTC, should show that base load and none of our hops.
 
-After the window the public numbers are p50, p95 and p99 of submit time to the accepting header, plus the accepted hops per family per step. The submit rows stay private. See [LOGGING.md](../go/LOGGING.md).
+After the window the public file follows [COUNT.md](COUNT.md). The submit rows stay private. See [LOGGING.md](../go/LOGGING.md).
